@@ -251,7 +251,7 @@
 
 							resource@1 {
 								resource,label = "cluster2";
-								resource,value = <0x130b00 0x00>;
+								resource,value = <0x14a140 0x00>;
 							};
 
 							resource@4 {
@@ -277,7 +277,7 @@
 
 							resource@1 {
 								resource,label = "cluster2";
-								resource,value = <0x130b00 0x00>;
+								resource,value = <0x14a140 0x00>;
 							};
 
 							resource@4 {
@@ -303,12 +303,12 @@
 
 							resource@1 {
 								resource,label = "cluster2";
-								resource,value = <0x130b00 0x1174c0>;
+								resource,value = <0x14a140 0x130b00>;
 							};
 
 							resource@4 {
 								resource,label = "mif";
-								resource,value = <0xf78f0 0xf78f0>;
+								resource,value = <0x1174c0 0x1174c0>;
 							};
 
 							resource@5 {
@@ -334,141 +334,11 @@
 
 							resource@4 {
 								resource,label = "mif";
-								resource,value = <0xf78f0 0xf78f0>;
+								resource,value = <0x1174c0 0x1174c0>;
 							};
 
 							resource@5 {
 								resource,label = "int";
-								resource,value = <0x00 0x00>;
-							};
-						};
-					};
-
-					booster_key@5 {
-						input_booster,label = "keyboard";
-						input_booster,type = <0x04>;
-						input_booster,head_time = <0x82>;
-						input_booster,tail_time = <0x00>;
-
-						inputbooster,resource {
-							compatible = "resource";
-
-							resource@1 {
-								resource,label = "cluster2";
-								resource,value = <0x130b00 0x130b00>;
-							};
-
-							resource@4 {
-								resource,label = "mif";
-								resource,value = <0xf78f0 0xf78f0>;
-							};
-
-							resource@5 {
-								resource,label = "int";
-								resource,value = <0x00 0x00>;
-							};
-						};
-					};
-
-					booster_key@6 {
-						input_booster,label = "mouse";
-						input_booster,type = <0x05>;
-						input_booster,head_time = <0x82>;
-						input_booster,tail_time = <0x1f4>;
-
-						inputbooster,resource {
-							compatible = "resource";
-
-							resource@1 {
-								resource,label = "cluster2";
-								resource,value = <0x130b00 0x82208>;
-							};
-
-							resource@4 {
-								resource,label = "mif";
-								resource,value = <0xf78f0 0xf78f0>;
-							};
-
-							resource@5 {
-								resource,label = "int";
-								resource,value = <0x00 0x00>;
-							};
-						};
-					};
-
-					booster_key@7 {
-						input_booster,label = "mouse_wheel";
-						input_booster,type = <0x06>;
-						input_booster,head_time = <0x82>;
-						input_booster,tail_time = <0x00>;
-
-						inputbooster,resource {
-							compatible = "resource";
-
-							resource@1 {
-								resource,label = "cluster2";
-								resource,value = <0x130b00 0x00>;
-							};
-
-							resource@4 {
-								resource,label = "mif";
-								resource,value = <0xf78f0 0x00>;
-							};
-
-							resource@5 {
-								resource,label = "int";
-								resource,value = <0x00 0x00>;
-							};
-						};
-					};
-
-					booster_key@8 {
-						input_booster,label = "pen_hover";
-						input_booster,type = <0x07>;
-						input_booster,head_time = <0x82>;
-						input_booster,tail_time = <0x1f4>;
-
-						inputbooster,resource {
-							compatible = "resource";
-
-							resource@1 {
-								resource,label = "cluster2";
-								resource,value = <0x130b00 0x82208>;
-							};
-
-							resource@4 {
-								resource,label = "mif";
-								resource,value = <0x00 0x00>;
-							};
-
-							resource@5 {
-								resource,label = "int";
-								resource,value = <0x00 0x00>;
-							};
-						};
-					};
-
-					booster_key@9 {
-						input_booster,label = "pen";
-						input_booster,type = <0x08>;
-						input_booster,head_time = <0xc8>;
-						input_booster,tail_time = <0x258>;
-
-						inputbooster,resource {
-							compatible = "resource";
-
-							resource@1 {
-								resource,label = "cluster2";
-								resource,value = <0x196400 0xfde80>;
-							};
-
-							resource@4 {
-								resource,label = "mif";
-								resource,value = <0xf78f0 0xf78f0>;
-							};
-
-							resource@5 {
-								resource,label = "bimc";
 								resource,value = <0x00 0x00>;
 							};
 						};
